@@ -1,5 +1,5 @@
 # lomira_shell
-A small portal application for Lomira Shell.
+A small portal application for Lomira Shell built using Django REST framework and ReactJS.
 <br>
 <center><h1>LogIn Page:</h1></center>
 
