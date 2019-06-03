@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+        Welcome {% if user.is_authenticated %} {{user.username}} {% else %} Visitor {% endif %}!
+</div>
+<br>
+
+<ul>
+{% for v in transaction_dicts %}
+    {{v.truck_number}}
+    {{v.gallons_pumped}}
+    {{v.price_per_gallon}}
+{% endfor %}
+</ul>
+
+{% endblock %}

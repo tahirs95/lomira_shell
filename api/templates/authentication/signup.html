@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>SIGN UP</h1>
+<form method="POST">
+    {% csrf_token %}
+    Username:{{ form.username }}
+    Password:{{ form.password1 }}
+    Repeat Password:{{ form.password2 }}
+    <button type="submit">Sign Up</button>
+</form>
+{% endblock %}

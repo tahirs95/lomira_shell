@@ -1,0 +1,27 @@
+.page-header a{
+    color: #C25100;
+    font-family: 'Lobster';
+}
+
+h2 a{
+    color: rgb(0, 194, 162);
+    font-family: 'Lobster';
+}
+
+body {
+    padding-left: 30px;
+}
+
+.page-header {
+    background-color: rgb(243, 204, 172);
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+/* #course {
+    padding-left: 500px;
+}
+
+#login {
+    padding-left: 1000px;
+} */

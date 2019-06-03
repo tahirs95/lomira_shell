@@ -1,0 +1,30 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "your name",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "history": "^4.9.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "engines": {
+    "node": "10.12.0",
+    "npm": "6.4.1"
+  },
+  "cacheDirectories": [
+    "book-frontend/node_modules"
+  ]
+}
