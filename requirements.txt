@@ -133,7 +133,7 @@ pycups==1.9.73
 pyemd==0.5.1
 pyexcel-io==0.5.17
 pyexcel-ods==0.5.6
-Pygments==2.3.1
+Pygments==2.7.4
 pygobject==3.26.1
 PyJWT==1.4.2
 pylint==2.3.1
