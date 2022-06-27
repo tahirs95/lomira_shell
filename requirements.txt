@@ -156,7 +156,7 @@ PyYAML==3.12
 pyzmq==17.1.2
 qtconsole==4.4.3
 regex==2017.11.9
-reportlab==3.4.0
+reportlab==3.5.55
 requests==2.21.0
 requests-oauthlib==1.2.0
 requests-unixsocket==0.1.5
